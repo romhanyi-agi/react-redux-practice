@@ -1,11 +1,14 @@
 # react-redux-practice
+---
 
 A simple redux practice based on the awesome video, Redux For Beginners | React Redux Tutorial by Dev Ed:
 https://www.youtube.com/watch?v=CVpUuw9XSjY
 
 **Note**: This is a small practice project; therefore, the fromtend and backend are not separated into different apps or folders.
 
-### Install backend packages
+## Install packages
+---
+### Backend packages
 
 ```
 $ npm install express@4
@@ -15,7 +18,7 @@ $ npm install --save-dev eslint@5 eslint-plugin-import@2
 $ npm install --save-dev eslint-config-airbnb-base@13
 ```
 
-### Install frontend packages
+### Frontend packages
 
 ```
 $ npm install react@16 react-dom@16
@@ -34,14 +37,14 @@ $ npm install --save-dev eslint-plugin-jsx-a11y@6 eslint-plugin-react@7
 $ npm install --save-dev eslint-config-airbnb@17
 ```
 
-### Install redux and react redux
+### Redux and react redux
 
 ```
 $ npm install redux
 $ npm install react-redux
 ```
 
-## Set up configurations
+## Configurations
 
 ### File structure
 
@@ -194,3 +197,21 @@ Open the **package.json** file and change 'scripts' to the following:
    "watch": "webpack --watch"
  },
 ```
+## Functionality
+
+### Server
+#### server.js file
+
+Starts our server using express and webpack with HMR.
+
+### Public
+#### index.js file
+
+Very basic home page for our app.
+
+### Src
+#### actions
+#### reducers
+#### jsx files
+##### App.jsx
+##### Header.jsx

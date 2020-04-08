@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 
 import allReducers from './reducers/index.js';
 import Header from './Header.jsx';
+import Content from './Content.jsx';
 
 const myStore = createStore(
   allReducers,
@@ -17,8 +18,10 @@ const myStore = createStore(
 ReactDOM.render(
   <Provider store={myStore}>
     <Header />
+    <Content />
   </Provider>,
-  document.getElementById('main'));
+  document.getElementById('main'),
+);
 
 if (module.hot) {
   module.hot.accept();

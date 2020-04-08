@@ -14,7 +14,7 @@ function Content() {
     <React.Fragment>
       <div>
         <h2>Counter: {counter}</h2>
-        <button onClick={() => dispatch(increment())}>+</button>
+        <button onClick={() => dispatch(increment(5))}>+</button>
         <button onClick={() => dispatch(decrement())}>-</button>
       </div>
     </React.Fragment>

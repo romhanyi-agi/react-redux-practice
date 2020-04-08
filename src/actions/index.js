@@ -1,7 +1,8 @@
 /* eslint-disable arrow-body-style */
-export const increment = () => {
+export const increment = (nr) => {
   return {
     type: 'INCREMENT',
+    payload: nr,
   };
 };
 

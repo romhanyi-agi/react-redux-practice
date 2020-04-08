@@ -92,7 +92,7 @@ Create **.eslintrc** file in the root directory and set basic configuration to i
 {
   "extends": "airbnb-base",
   "env": {
-    "node": "true"
+    "node": true
   },
   "rules": {
     "no-console": "off"
@@ -211,7 +211,12 @@ Very basic home page for our app.
 
 ### Src
 #### actions
+  index.js  - contains all the actions for managing statuses with redux.
 #### reducers
+  index.js - a common reducer to combine the other separate reducers.
+  counter.js - reducer function for handleing the state of the counter with state and action parameters.
+  isLogged.js - reducer function for handling the loggedIn state. It also has a state and an action parameter.
 #### jsx files
 ##### App.jsx
 ##### Header.jsx
+##### Content.jsx

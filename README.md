@@ -3,7 +3,7 @@
 A simple redux practice based on the awesome video, Redux For Beginners | React Redux Tutorial by Dev Ed:
 https://www.youtube.com/watch?v=CVpUuw9XSjY
 
-**Note**: This is a small practice project; therefore, the fromtend and backend are not separated into different apps or folders.
+**Note**: This is a small practice project; therefore, the frontend and backend are not separated into different apps or folders.
 
 ## Install packages
 ---
